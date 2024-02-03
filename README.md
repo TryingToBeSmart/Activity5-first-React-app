@@ -1,3 +1,25 @@
+# Activity 5 First React App
+2 different hooks were used to define and mutate the state of the elements.  
+
+```
+  const [clicks, setClicks] = useState(0);
+  const [message, setMessage] = useState(props.title);
+```
+
+The initial state is defined by the props that are passed in the properties clicks and message using the useState method.  Then, every time there is a state change, the methods setClicks and setMessage are called and the properties are passed with the methods to mutate the value of the properties, but also a re-render of the component is triggered to display the updated value.
+![](screenshots/part1.png)
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
